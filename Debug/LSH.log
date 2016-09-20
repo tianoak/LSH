@@ -1,0 +1,400 @@
+﻿生成启动时间为 2016/9/20 20:57:52。
+     1>项目“C:\Users\Administrator\Desktop\LSH\LSH\LSH.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt flann.cpp main.cpp
+         main.cpp
+         flann.cpp
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(82): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(93): warning C4273: “flann_set_distance_type”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(85) : 参见“flann_set_distance_type”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(99): warning C4273: “flann_get_distance_type”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(90) : 参见“flann_get_distance_type”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(103): warning C4273: “flann_get_distance_order”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(96) : 参见“flann_get_distance_order”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(162): warning C4273: “flann_build_index”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(112) : 参见“flann_build_index”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(167): warning C4273: “flann_build_index_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(118) : 参见“flann_build_index_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(172): warning C4273: “flann_build_index_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(124) : 参见“flann_build_index_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(177): warning C4273: “flann_build_index_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(130) : 参见“flann_build_index_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(182): warning C4273: “flann_build_index_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(136) : 参见“flann_build_index_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(238): warning C4273: “flann_add_points”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(156) : 参见“flann_add_points”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(243): warning C4273: “flann_add_points_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(160) : 参见“flann_add_points_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(248): warning C4273: “flann_add_points_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(164) : 参见“flann_add_points_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(253): warning C4273: “flann_add_points_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(168) : 参见“flann_add_points_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(258): warning C4273: “flann_add_points_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(172) : 参见“flann_add_points_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(310): warning C4273: “flann_remove_point”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(182) : 参见“flann_remove_point”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(315): warning C4273: “flann_remove_point_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(185) : 参见“flann_remove_point_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(320): warning C4273: “flann_remove_point_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(188) : 参见“flann_remove_point_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(325): warning C4273: “flann_remove_point_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(191) : 参见“flann_remove_point_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(330): warning C4273: “flann_remove_point_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(194) : 参见“flann_remove_point_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(381): warning C4273: “flann_get_point”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(205) : 参见“flann_get_point”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(386): warning C4273: “flann_get_point_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(208) : 参见“flann_get_point_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(391): warning C4273: “flann_get_point_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(211) : 参见“flann_get_point_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(396): warning C4273: “flann_get_point_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(214) : 参见“flann_get_point_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(401): warning C4273: “flann_get_point_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(217) : 参见“flann_get_point_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(450): warning C4273: “flann_veclen”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(226) : 参见“flann_veclen”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(455): warning C4273: “flann_veclen_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(228) : 参见“flann_veclen_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(460): warning C4273: “flann_veclen_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(230) : 参见“flann_veclen_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(465): warning C4273: “flann_veclen_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(232) : 参见“flann_veclen_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(470): warning C4273: “flann_veclen_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(234) : 参见“flann_veclen_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(519): warning C4273: “flann_size”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(242) : 参见“flann_size”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(524): warning C4273: “flann_size_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(244) : 参见“flann_size_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(529): warning C4273: “flann_size_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(246) : 参见“flann_size_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(534): warning C4273: “flann_size_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(248) : 参见“flann_size_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(539): warning C4273: “flann_size_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(250) : 参见“flann_size_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(588): warning C4273: “flann_used_memory”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(258) : 参见“flann_used_memory”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(593): warning C4273: “flann_used_memory_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(260) : 参见“flann_used_memory_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(598): warning C4273: “flann_used_memory_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(262) : 参见“flann_used_memory_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(603): warning C4273: “flann_used_memory_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(264) : 参见“flann_used_memory_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(608): warning C4273: “flann_used_memory_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(266) : 参见“flann_used_memory_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(662): warning C4273: “flann_save_index”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(276) : 参见“flann_save_index”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(667): warning C4273: “flann_save_index_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(279) : 参见“flann_save_index_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(672): warning C4273: “flann_save_index_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(282) : 参见“flann_save_index_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(677): warning C4273: “flann_save_index_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(285) : 参见“flann_save_index_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(682): warning C4273: “flann_save_index_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(288) : 参见“flann_save_index_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(733): warning C4273: “flann_load_index”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(300) : 参见“flann_load_index”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(738): warning C4273: “flann_load_index_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(305) : 参见“flann_load_index_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(743): warning C4273: “flann_load_index_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(310) : 参见“flann_load_index_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(748): warning C4273: “flann_load_index_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(315) : 参见“flann_load_index_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(753): warning C4273: “flann_load_index_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(320) : 参见“flann_load_index_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(820): warning C4273: “flann_find_nearest_neighbors”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(342) : 参见“flann_find_nearest_neighbors”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(825): warning C4273: “flann_find_nearest_neighbors_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(352) : 参见“flann_find_nearest_neighbors_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(830): warning C4273: “flann_find_nearest_neighbors_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(362) : 参见“flann_find_nearest_neighbors_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(835): warning C4273: “flann_find_nearest_neighbors_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(372) : 参见“flann_find_nearest_neighbors_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(840): warning C4273: “flann_find_nearest_neighbors_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(382) : 参见“flann_find_nearest_neighbors_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(910): warning C4273: “flann_find_nearest_neighbors_index”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(409) : 参见“flann_find_nearest_neighbors_index”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(915): warning C4273: “flann_find_nearest_neighbors_index_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(417) : 参见“flann_find_nearest_neighbors_index_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(920): warning C4273: “flann_find_nearest_neighbors_index_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(425) : 参见“flann_find_nearest_neighbors_index_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(925): warning C4273: “flann_find_nearest_neighbors_index_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(433) : 参见“flann_find_nearest_neighbors_index_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(930): warning C4273: “flann_find_nearest_neighbors_index_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(441) : 参见“flann_find_nearest_neighbors_index_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1013): warning C4273: “flann_radius_search”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(464) : 参见“flann_radius_search”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1024): warning C4273: “flann_radius_search_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(472) : 参见“flann_radius_search_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1035): warning C4273: “flann_radius_search_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(480) : 参见“flann_radius_search_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1046): warning C4273: “flann_radius_search_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(488) : 参见“flann_radius_search_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1057): warning C4273: “flann_radius_search_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(496) : 参见“flann_radius_search_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1112): warning C4273: “flann_free_index”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(513) : 参见“flann_free_index”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1117): warning C4273: “flann_free_index_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(516) : 参见“flann_free_index_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1122): warning C4273: “flann_free_index_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(519) : 参见“flann_free_index_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1127): warning C4273: “flann_free_index_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(522) : 参见“flann_free_index_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1132): warning C4273: “flann_free_index_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(525) : 参见“flann_free_index_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1192): warning C4273: “flann_compute_cluster_centers”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(547) : 参见“flann_compute_cluster_centers”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1197): warning C4273: “flann_compute_cluster_centers_float”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(554) : 参见“flann_compute_cluster_centers_float”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1202): warning C4273: “flann_compute_cluster_centers_double”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(561) : 参见“flann_compute_cluster_centers_double”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1207): warning C4273: “flann_compute_cluster_centers_byte”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(568) : 参见“flann_compute_cluster_centers_byte”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(1212): warning C4273: “flann_compute_cluster_centers_int”: dll 链接不一致
+                 c:\users\administrator\desktop\lsh\lsh\flann.h(575) : 参见“flann_compute_cluster_centers_int”的前一个定义
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(135): error C2065: “L2”: 未声明的标识符
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(163): 参见对正在编译的函数 模板 实例化“flann_index_t _flann_build_index<float>(T *,int,int,float *,FLANNParameters *)”的引用
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(135): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(163) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(135): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(138): error C2065: “L1”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(138): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(163) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(138): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(141): error C2065: “MinkowskiDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(141): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(163) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(163) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(144): error C2065: “HistIntersectionDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(144): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(163) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(144): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(147): error C2065: “HellingerDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(147): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(163) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(147): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(150): error C2065: “ChiSquareDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(150): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(163) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(150): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(153): error C2065: “KL_Divergence”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(153): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(163) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(153): error C2563: 在形参表中不匹配
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(173) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(173) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(173) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(173) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(173) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(173) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(173) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(173) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(178) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(178) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(178) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(178) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(178) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(178) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(178) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(178) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(183) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(183) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(183) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(183) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(183) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(183) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(183) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(183) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(211): error C2065: “L2”: 未声明的标识符
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(239): 参见对正在编译的函数 模板 实例化“int _flann_add_points<float>(flann_index_t,T *,int,int,float)”的引用
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(211): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(239) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(211): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(214): error C2065: “L1”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(214): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(239) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(214): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(217): error C2065: “MinkowskiDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(217): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(239) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(217): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(220): error C2065: “HistIntersectionDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(220): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(239) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(220): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(223): error C2065: “HellingerDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(223): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(239) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(223): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(226): error C2065: “ChiSquareDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(226): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(239) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(226): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(229): error C2065: “KL_Divergence”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(229): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(239) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(229): error C2563: 在形参表中不匹配
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(249) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(249) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(249) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(249) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(249) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(249) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(249) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(254) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(254) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(254) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(254) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(254) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(254) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(254) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(259) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(259) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(259) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(259) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(259) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(259) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(259) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(283): error C2065: “L2”: 未声明的标识符
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(311): 参见对正在编译的函数 模板 实例化“int _flann_remove_point<float>(flann_index_t,unsigned int)”的引用
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(283): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(311) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(283): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(286): error C2065: “L1”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(286): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(311) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(286): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(289): error C2065: “MinkowskiDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(289): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(311) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(289): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(292): error C2065: “HistIntersectionDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(292): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(311) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(292): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(295): error C2065: “HellingerDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(295): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(311) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(295): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(298): error C2065: “ChiSquareDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(298): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(311) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(298): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(301): error C2065: “KL_Divergence”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(301): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(311) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(301): error C2563: 在形参表中不匹配
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(321) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(321) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(321) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(321) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(321) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(321) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(321) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(326) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(326) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(326) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(326) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(326) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(326) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(326) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(331) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(331) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(331) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(331) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(331) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(331) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(331) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(354): error C2065: “L2”: 未声明的标识符
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(382): 参见对正在编译的函数 模板 实例化“T *_flann_get_point<float>(flann_index_t,unsigned int)”的引用
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(354): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(382) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(354): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(357): error C2065: “L1”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(357): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(382) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(357): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(360): error C2065: “MinkowskiDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(360): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(382) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(360): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(363): error C2065: “HistIntersectionDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(363): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(382) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(363): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(366): error C2065: “HellingerDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(366): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(382) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(366): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(369): error C2065: “ChiSquareDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(369): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(382) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(369): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(372): error C2065: “KL_Divergence”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(372): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(382) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(372): error C2563: 在形参表中不匹配
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(392) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(392) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(392) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(392) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(392) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(392) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(392) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(397) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(397) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(397) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(397) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(397) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(397) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(397) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(402) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(402) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(402) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(402) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(402) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(402) : 参见“T”的声明
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(402) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(423): error C2065: “L2”: 未声明的标识符
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(451): 参见对正在编译的函数 模板 实例化“unsigned int _flann_veclen<float>(flann_index_t)”的引用
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(423): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(451) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(423): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(426): error C2065: “L1”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(426): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(451) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(426): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(429): error C2065: “MinkowskiDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(429): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(451) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(429): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(432): error C2065: “HistIntersectionDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(432): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(451) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(432): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(435): error C2065: “HellingerDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(435): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(451) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(435): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(438): error C2065: “ChiSquareDistance”: 未声明的标识符
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(438): error C2275: “T”: 将此类型用作表达式非法
+                 c:\users\administrator\desktop\lsh\lsh\flann.cpp(451) : 参见“T”的声明
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(438): error C2563: 在形参表中不匹配
+     1>c:\users\administrator\desktop\lsh\lsh\flann.cpp(438): fatal error C1003: 错误计数超过 100；正在停止编译
+         正在生成代码...
+     1>已完成生成项目“C:\Users\Administrator\Desktop\LSH\LSH\LSH.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.60
